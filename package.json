@@ -4,7 +4,8 @@
   "description": "prueba",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/soyyo5159/prueba-juancito#readme",
   "dependencies": {
+    "body-parser-json": "^1.9.2",
     "express": "^4.16.2"
   }
 }
