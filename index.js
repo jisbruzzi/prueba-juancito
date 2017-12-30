@@ -8,7 +8,6 @@ const url = 'mongodb://pp:pp@ds133597.mlab.com:33597/josecito';
 const db=null;
 
 MongoClient.connect(url, function(err, client) {
-    assert.equal(null, err);
     console.log("Connected correctly to server");
   
     db = client.db(dbName);
