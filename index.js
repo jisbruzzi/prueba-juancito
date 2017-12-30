@@ -5,6 +5,10 @@ var bodyParser = require('body-parser')
 
 
 app.use(bodyParser.json())
+
+app.get('/favicon.ico', function(req, res) {
+    res.status(204);
+});
  
 app.get('/hola', function (req, res) {
   res.send('Hello World juancitovbbbbbbbbbbbbbbbbbbbbb szd/xx')
