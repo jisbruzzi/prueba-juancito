@@ -5,12 +5,12 @@ const MongoClient = require('mongodb').MongoClient;
 var bodyParser = require('body-parser')
 const url = 'mongodb://pp:pp@ds133597.mlab.com:33597/josecito';
 
-const db=null;
+let db=null;
 
 MongoClient.connect(url, function(err, client) {
     console.log("Connected correctly to server");
   
-    db = client.db(dbName);
+    db = client.db("josecito");
 });
   
 
