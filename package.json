@@ -19,6 +19,7 @@
   "homepage": "https://github.com/soyyo5159/prueba-juancito#readme",
   "dependencies": {
     "body-parser-json": "^1.9.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
   }
 }
