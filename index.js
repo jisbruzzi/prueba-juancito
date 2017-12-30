@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient;
 var bodyParser = require('body-parser')
 const url = 'mongodb://pp:pp@ds133597.mlab.com:33597/josecito';
 
-const db
+const db=null;
 
 MongoClient.connect(url, function(err, client) {
     assert.equal(null, err);
